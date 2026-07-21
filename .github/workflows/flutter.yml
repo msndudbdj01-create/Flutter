@@ -35,8 +35,8 @@ jobs:
       - name: Analyze Code
         run: flutter analyze || true
 
-      - name: Build APK  
-        uses: ./.github/actions/upload-apk-action
+      - name: Build APK
+        run: flutter build apk --release
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
