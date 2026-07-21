@@ -1,0 +1,27 @@
+name: 'Upload APK Action'
+description: 'Builds and uploads APK to GitHub releases'
+inputs:
+  apk-path:
+    description: 'Path to APK file'
+    required: true
+  release-name:
+    description: 'Name for the release'
+    required: false
+    default: 'release'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Build APK
+      shell: bash
+      run: |
+        flutter pub get
+        flutter build apk --release
+        
+    - name: Create Release (if needed)
+      shell: bash
+      run: |
+        VERSION=$(flutter build apk --release 2>&1 | grep -o 'version:.*' | head -1 || echo "latest")
+        gh release create "${{ inputs.release-name }}-$GITHUB_RUN_NUMBER" \
+          --generate-notes \
+          --attach "${{ inputs.apk-path }}" || echo "Release already exists or creation skipped"
