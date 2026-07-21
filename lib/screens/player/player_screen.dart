@@ -522,7 +522,7 @@ class _PlayerScreenState extends State<PlayerScreen>
   Widget build(BuildContext context) {
     return Directionality(
       textDirection: TextDirection.ltr,
-      child: WillPopScope(
+      child: PopScope(
         onWillPop: () async {
           await _forceExit();
           return false;
