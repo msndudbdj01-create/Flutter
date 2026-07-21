@@ -20,7 +20,7 @@ android {
 
     defaultConfig {
         applicationId = "com.farou9.zora"
-        minSdk = 23
+        minSdk = flutter.minSdkVersion
         targetSdk = 35
         versionCode = flutter.versionCode
         versionName = flutter.versionName

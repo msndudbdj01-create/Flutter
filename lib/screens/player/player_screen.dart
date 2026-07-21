@@ -523,7 +523,7 @@ class _PlayerScreenState extends State<PlayerScreen>
     return Directionality(
       textDirection: TextDirection.ltr,
       child: PopScope(
-        onWillPop: () async {
+        onPop: () async {
           await _forceExit();
           return false;
         },

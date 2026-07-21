@@ -29,11 +29,16 @@ jobs:
           flutter-version: '3.41.0'
           channel: 'stable'
 
+      - name: Setup NDK
+        uses: nttld/setup-ndk@v1
+        with:
+          ndk-version: '27.0.12077973'
+
       - name: Install Dependencies
         run: flutter pub get
 
       - name: Analyze Code
-        run: flutter analyze || true
+        run: flutter analyze
 
       - name: Build APK
         run: flutter build apk --release
@@ -43,4 +48,3 @@ jobs:
         with:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-

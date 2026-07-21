@@ -107,7 +107,7 @@ class _SplashScreenState extends State<SplashScreen>
       barrierDismissible: false,
       builder: (BuildContext context) {
         return PopScope(
-          onWillPop: () async => false,
+          onPop: () async => false,
           child: AlertDialog(
             backgroundColor: const Color(0xFF1A1A1A),
             shape: RoundedRectangleBorder(
