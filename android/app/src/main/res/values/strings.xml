@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">Zora</string>
+    <string name="settings">الإعدادات</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="refresh">تحديث</string>
+    <string name="search">ابحث...</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="connection_restored">تم استعادة الاتصال بالإنترنت</string>
+    
+    <!-- Navigation -->
+    <string name="home">الرئيسية</string>
+    <string name="my_list">قائمتي</string>
+    
+    <!-- About Screen -->
+    <string name="about_app">حول التطبيق</string>
+    <string name="version">الإصدار</string>
+    <string name="latest_version">أحدث إصدار</string>
+    <string name="app_description">✨ Zora هو تطبيقك المثالي لمشاهدة الأفلام والمسلسلات بجودة عالية. استمتع بمكتبة ضخمة من المحتوى العالمي مع دعم الترجمة المتعددة ومزامنة المشاهدة عبر Trakt. حمل التطبيق الآن وابدأ رحلتك السينمائية! 🎬</string>
+    <string name="developer">المطور</string>
+    <string name="developed_by">مطور Zora</string>
+    <string name="special_thanks">شكر خاص لجميع المساهمين والمستخدمين الذين دعموا تطوير Zora ❤️</string>
+    <string name="key_features">الميزات الرئيسية</string>
+    <string name="movies_and_tv">أفلام ومسلسلات</string>
+    <string name="movies_and_tv_desc">مكتبة ضخمة من المحتوى</string>
+    <string name="multiple_subtitles">ترجمة متعددة</string>
+    <string name="multiple_subtitles_desc">دعم لغات متعددة في الترجمة</string>
+    <string name="trakt_sync">مزامنة Trakt</string>
+    <string name="trakt_sync_desc">مزامنة المشاهدة والقوائم</string>
+    <string name="resume_watching">استكمال المشاهدة</string>
+    <string name="resume_watching_desc">متابعة من حيث توقفت</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="copyright">جميع الحقوق محفوظة</string>
+    <string name="made_in">صنع من تطوير جزائري 🇩🇿</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="official_website">الموقع الرسمي</string>
+    <string name="email">البريد الإلكتروني</string>
+    
+    <!-- Details Screen -->
+    <string name="resume">استكمال</string>
+    <string name="watch_now">مشاهدة الآن</string>
+    <string name="in_list">في القائمة</string>
+    <string name="add_to_list">قائمتي</string>
+    <string name="episodes">الحلقات</string>
+    <string name="season">الموسم</string>
+    <string name="episode">الحلقة</string>
+    <string name="resumed">مستأنف</string>
+    
+    <!-- Home Screen -->
+    <string name="continue_watching">متابعة المشاهدة</string>
+    <string name="trending">الأكثر تداولاً</string>
+    <string name="popular_movies">أفلام عالمية</string>
+    <string name="popular_tv">مسلسلات مشهورة</string>
+    <string name="anime">أنمي وكرتون</string>
+    <string name="watch">مشاهدة</string>
+    
+    <!-- My List Screen -->
+    <string name="your_list_is_empty">قائمتك فارغة</string>
+    <string name="add_movies_to_watch_later">أضف أفلام ومسلسلات للمشاهدة لاحقاً</string>
+    
+    <!-- Player Screen -->
+    <string name="subtitles">الترجمة</string>
+    <string name="quality">الجودة</string>
+    <string name="aspect_ratio">الأبعاد</string>
+    <string name="auto">تلقائي</string>
+    <string name="fit">ملائم</string>
+    <string name="fill">تعبئة</string>
+    <string name="zoom">تكبير</string>
+    <string name="stretch">تمديد</string>
+    <string name="no_subtitles_available">لا توجد ترجمات متاحة</string>
+    <string name="subtitle_loaded">تم تحميل الترجمة</string>
+    <string name="failed_to_load_subtitle">فشل تحميل الترجمة</string>
+    <string name="remove_subtitle">إزالة الترجمة</string>
+    <string name="subtitle_active">الترجمة مفعلة حالياً</string>
+    <string name="next_episode">التالية</string>
+    <string name="this_is_the_last_episode">هذه آخر حلقة في المسلسل</string>
+    <string name="failed_to_play_video">تعذر تشغيل الفيديو</string>
+    
+    <!-- Settings Screen -->
+    <string name="language">اللغة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="app_language">لغة التطبيق</string>
+    <string name="choose_app_language">اختر لغتك المفضلة</string>
+    <string name="account_and_sync">الحساب والمزامنة</string>
+    <string name="user_experience">تجربة المستخدم</string>
+    <string name="general">عام</string>
+    <string name="trakt_account">حساب Trakt</string>
+    <string name="trakt_description">سجل الدخول لمزامنة بياناتك</string>
+    <string name="trakt_connected">حساب Trakt مرتبط</string>
+    <string name="login_trakt">ربط حساب Trakt</string>
+    <string name="logout_trakt">تسجيل الخروج من Trakt</string>
+    <string name="not_logged_in">غير مسجل</string>
+    <string name="preferred_subtitle_language">لغة الترجمة المفضلة</string>
+    <string name="wyzie_api_key">مفتاح Wyzie API</string>
+    <string name="wyzie_api_key_desc">أدخل مفتاح API الخاص بك من Wyzie Subs</string>
+    <string name="wyzie_api_key_set">تم حفظ المفتاح بنجاح</string>
+    <string name="wyzie_api_key_deleted">تم حذف المفتاح</string>
+    <string name="get_free_key">احصل عليه من</string>
+    <string name="subtitle_and_player">الترجمة و المشغل</string>
+    <string name="customize_subtitle">تخصيص الترجمة و المشغل</string>
+    <string name="restart_required">يلزم إعادة التشغيل لتغيير اللغة</string>
+    <string name="language_changed">تم تغيير اللغة. أعد تشغيل التطبيق للتأثير الكامل</string>
+    
+    <!-- Subtitle Settings Screen -->
+    <string name="subtitle_settings">إعدادات الترجمة</string>
+    <string name="subtitle_preview">معاينة الترجمة</string>
+    <string name="font">الخط</string>
+    <string name="background">الخلفية</string>
+    <string name="text_color">لون النص</string>
+    <string name="text_size">حجم النص</string>
+    <string name="position">الموضع</string>
+    <string name="default_quality">الجودة الافتراضية</string>
+    <string name="default_resize_mode">وضع تغيير الحجم الافتراضي</string>
+    <string name="settings_saved">تم حفظ الإعدادات بنجاح</string>
+    <string name="reset_to_default">استعادة الإعدادات الافتراضية</string>
+    <string name="reset_done">تم استعادة الإعدادات الافتراضية</string>
+    
+    <!-- Colors -->
+    <string name="white">أبيض</string>
+    <string name="yellow">أصفر</string>
+    <string name="green">أخضر</string>
+    <string name="cyan">سماوي</string>
+    <string name="orange">برتقالي</string>
+    <string name="transparent">شفاف</string>
+    <string name="black_transparent">أسود شفاف</string>
+    <string name="black">أسود</string>
+    <string name="gray">رمادي</string>
+    
+    <!-- Splash Screen -->
+    <string name="connection_failed">تعذر الاتصال</string>
+    <string name="check_internet">يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى</string>
+    <string name="exit">خروج</string>
+    <string name="retry">محاولة مرة أخرى</string>
+    
+    <!-- Trakt -->
+    <string name="trakt_linked_successfully">تم ربط حساب Trakt بنجاح!</string>
+    
+    <!-- Errors -->
+    <string name="error">خطأ</string>
+    <string name="something_went_wrong">حدث خطأ ما</string>
+</resources>
