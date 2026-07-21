@@ -26,13 +26,16 @@ jobs:
       - name: Install Flutter Version 3.24.5
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.41.0'
+          flutter-version: '3.24.5'
           channel: 'stable'
 
-      - name: Setup NDK
-        uses: nttld/setup-ndk@v1
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
         with:
-          ndk-version: '27.0.12077973'
+          api-level: 35
+          build-tools: 35.0.0
+          ndk: 27.0.12077973
+          cache: true
 
       - name: Install Dependencies
         run: flutter pub get
@@ -41,10 +44,10 @@ jobs:
         run: flutter analyze
 
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk --release --split-per-abi
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: build/app/outputs/flutter-apk/*.apk
